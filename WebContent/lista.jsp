@@ -44,18 +44,18 @@
 			 <td>${pessoa.altura}</td>
 			 
 			 <td>
-				<form action = 'remove' method = 'post'>
-					<input type='hidden' name = 'id' value = '${pessoa.id}'>
-					<input type='submit' value='remover'>
+				<form class = "rem-atualiza" action = 'remove' method = 'post'>
+					<input class = "inputR" type='hidden' name = 'id' value = '${pessoa.id}'>
+					<input class = "inputR" type='submit' value='Remover'>
 				</form>
 			</td>
 			
 			<td>
-				<form action='atualiza' method='get'>
-					<input type='hidden' name = 'id' value='${pessoa.id}'>
-					<input type='hidden' name = 'nome' value='${pessoa.nome}'>
-					<input type='hidden' name = 'nascimento' value='${pessoa.nascimento}'>
-					<input type='submit' value = 'atualizar'>
+				<form class = "rem-atualiza" action='atualiza' method='get'>
+					<input class = "inputA"  type='hidden' name = 'id' value='${pessoa.id}'>
+					<input class = "inputA"  type='hidden' name = 'nome' value='${pessoa.nome}'>
+					<input class = "inputA"  type='hidden' name = 'nascimento' value='${pessoa.nascimento}'>
+					<input class = "inputA"  type='submit' value = 'Atualizar'>
 				</form>
 			</td>
 		 </tr>
