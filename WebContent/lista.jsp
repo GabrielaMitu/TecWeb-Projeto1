@@ -13,7 +13,7 @@
 <title>Informações </title>
 </head>
 
-<h1> Lista de Aniversário e Altura </h1>
+<h1> Tabela de Aniversário e Altura </h1>
 
 
 <div class = 'container'>

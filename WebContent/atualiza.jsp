@@ -9,7 +9,7 @@
 
 <title>Atualização</title>
 
-<h1> Atualize a lista </h1>
+<h1> Atualize a tabela </h1>
 
 </head>
 <body>
