@@ -18,13 +18,14 @@ Assim, a página deve ficar no seguinte formato:
 
 ![](img/inicio.png)
 
-Pode-observar a existência de três botões: "Remover" e "Atualizar" ao lado de cada registro e "Adicionar" abaixo a tabela
+Pode-observar a existência de três botões: "Remover" e "Atualizar" ao lado de cada registro e "Adicionar" abaixo da tabela
 
 Ao clicar em "Remover", o registro da mesma linha será deletado.
-O botão atualizar direcionará o usuário à possibilidade de edição dos dados do registro:
+
+O botão "Atualizar" direcionará o usuário à possibilidade de edição dos dados do registro:
 
 ![](img/atualiza.png)
 
-Já ao clicar ek "Adicionar", será possível realizar mais um registro na tabela e o formato deve ser, por exemplo, da seguinte maneira:
+Já ao clicar em "Adicionar", será possível realizar mais um registro na tabela e o formato deve ser, por exemplo, da seguinte maneira:
 
 ![](img/adicionar.png)
