@@ -6,6 +6,7 @@ import java.sql.SQLException;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
+import java.util.Date;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -41,7 +42,7 @@ public class Cria extends HttpServlet {
 		pessoa.setNome(request.getParameter("nome"));
 		pessoa.setAltura(Double.valueOf(request.getParameter("altura")));
 		String nascimento = request.getParameter("nascimento");
-		java.util.Date data = new SimpleDateFormat ("yyyy-MM-dd").parse(nascimento);
+		Date data = new SimpleDateFormat("yyyy-MM-dd").parse(nascimento);
 		Calendar dataNascimento = Calendar.getInstance();
 		dataNascimento.setTime(data);
 		pessoa.setNascimento(dataNascimento);
