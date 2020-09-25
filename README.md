@@ -11,3 +11,20 @@ Para a execução desse projeto, é necessário inicialmente criar um database n
 
 Agora, pode-se inserir na tabela de início algum registro, com o seguinte comando, por exemplo:
 - INSERT INTO Pessoa (nome, nascimento, altura) VALUES ('Gabriela','20010209',1.5);
+
+A fim de conseguir visualizar o resultado final, é necessário adicionar na URL "Lista": http://localhost:8080/Projeto1/Lista
+
+Assim, a página deve ficar no seguinte formato:
+
+![](img/inicio.png)
+
+Pode-observar a existência de três botões: "Remover" e "Atualizar" ao lado de cada registro e "Adicionar" abaixo a tabela
+
+Ao clicar em "Remover", o registro da mesma linha será deletado.
+O botão atualizar direcionará o usuário à possibilidade de edição dos dados do registro:
+
+![](img/atualiza.png)
+
+Já ao clicar ek "Adicionar", será possível realizar mais um registro na tabela e o formato deve ser, por exemplo, da seguinte maneira:
+
+![](img/adicionar.png)
